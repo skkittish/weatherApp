@@ -43,6 +43,6 @@ function dateBuilder (d) {
     let day = days[d.getDay()];
     let date = d.getDate();
     let month = months[d.getMonth()];
-    let year = d.getYear()];
+    let year = d.getYear();
     return `${day} ${date} ${month} ${year}`;
 }
