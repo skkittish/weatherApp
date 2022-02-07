@@ -32,7 +32,7 @@ temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 let weather_el = document.querySelector('.current .weather');
 weather_el.innerHTML = weather.weather[0].main;
 
-let hilow = document.querySelector('hi-low');
+let hilow = document.querySelector('.hi-low');
 hilow.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
